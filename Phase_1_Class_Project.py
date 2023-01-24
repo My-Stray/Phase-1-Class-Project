@@ -56,15 +56,11 @@ def netpay():
             print("Overtime Pay: $ , .2")
             print("Gross Pay: $ ", )
             print('incometax: $ ', .2)
-            
             print("netpay: $ ", .2\n)
-
-
-
         def anotherentry() -> str:
             return "Do you want to add another employee? Enter yes or no :"
             if anotherentry == yes:
-                GetEmpName()
+               return GetEmpName()
             else:
                 def PrintTotals(TotEmployees, TotHours, TotGrossPay, TotTax, TotNetPay):    
                     print(f"Total Number Of Employees: {TotEmployees}")
